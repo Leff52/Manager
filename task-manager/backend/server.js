@@ -8,7 +8,7 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 
-const SECRET_KEY = 'leff52' // Секретный ключ для подписи JWT
+const SECRET_KEY = 'leff52'
 
 let tasks = []
 let users = []

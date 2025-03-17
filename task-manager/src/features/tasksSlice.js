@@ -41,7 +41,7 @@ export const deleteTask = createAsyncThunk(
 		await axios.delete(`${API_URL}/${id}`, {
 			headers: { Authorization: `Bearer ${token}` },
 		})
-		return id // возвращаем id, чтобы потом убрать из стейта
+		return id 
 	}
 )
 
